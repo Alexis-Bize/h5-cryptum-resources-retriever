@@ -82,7 +82,7 @@ Right now, the quicker way to retrieve your Spartan Token (Authorization) is to 
 Everything you need might be found on the [content-hacs API](https://content-hacs.svc.halowaypoint.com/contents/GameVariantDefinition) (See: "[Identity](https://content-hacs.svc.halowaypoint.com/content/guid-27199f2a-4708-4284-a733-a2cc223559dc)" key). Also each player's file has its own id and can be located in its sharing URL after the hash key (#). Example: [https://...#ugc...66681a69-8096-42c5-8df1-a89b21974cf1](https://www.halowaypoint.com/en-us/games/halo-5-guardians/xbox-one/game-variants?lastModifiedFilter=Everything&sortOrder=BookmarkCount&page=1&gamertag=X3CXeX%20v3#ugc_halo-5-guardians_xbox-one_gamevariant_X3CXeX%20v3_66681a69-8096-42c5-8df1-a89b21974cf1).
 
 ### Want to contribute?
-Feel free to open a pull request on [GitHub](https://github.com/Alexis-Bize/h5-cryptum-markup-parser)!
+Feel free to open a pull request on [GitHub](https://github.com/Alexis-Bize/h5-cryptum-resources-retriever)!
 
 ### Licence
 MIT
