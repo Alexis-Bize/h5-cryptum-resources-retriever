@@ -21,7 +21,7 @@ ResourcesRetriever
 .setFileId('27199f2a47084284a733a2cc223559dc')
 .setFileType(MAP_VARIANT)
 .setOwnerType(SYSTEM)
-.retrieveAndSave((err, status) => console.log(err, status));
+.retrieveAndSave((err, result) => console.log(err, result));
 
 // Retrieve a game variant from a player
 // No Weapon Start
@@ -33,7 +33,7 @@ ResourcesRetriever
 .setFileType(GAME_VARIANT)
 .setOwnerType(PLAYER)
 .setOwnerName('X3CXeX v3') // File's owner
-.retrieveAndSave((err, status) => console.log(err, status));
+.retrieveAndSave((err, result) => console.log(err, result));
 
 ```
 
@@ -53,8 +53,8 @@ ResourcesRetriever
 .setFileId('026064ad62bc4f30892ab69fa76ed331')
 .setFileType(allowedFileTypes.MAP_VARIANT)
 .setOwnerType(allowedOwnerTypes.SYSTEM)
-.retrieveAndSave(function(err, status) {
-	return console.log(err, status);
+.retrieveAndSave(function(err, result) {
+	return console.log(err, result);
 });
 
 // Retrieve a game variant from a player
@@ -67,8 +67,8 @@ ResourcesRetriever
 .setFileType(allowedFileTypes.GAME_VARIANT)
 .setOwnerType(allowedOwnerTypes.PLAYER)
 .setOwnerName('X3CXeX v3') // File's owner
-.retrieveAndSave(function(err, status) {
-	return console.log(err, status);
+.retrieveAndSave(function(err, result) {
+	return console.log(err, result);
 });
 
 ```
