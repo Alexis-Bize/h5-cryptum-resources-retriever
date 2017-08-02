@@ -58,7 +58,7 @@ ResourcesRetriever
 });
 
 // Retrieve a game variant from a player
-// No Weapon Start
+// Weapons Damage Disabled
 
 ResourcesRetriever
 .setGamertag('...')
